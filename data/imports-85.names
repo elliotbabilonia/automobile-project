@@ -7,11 +7,14 @@
      1) 1985 Model Import Car and Truck Specifications, 1985 Ward's
         Automotive Yearbook.
      2) Personal Auto Manuals, Insurance Services Office, 160 Water
-        Street, New York, NY 10038 
+        Street, New York, NY 10038 Practice SQL Interview and Data Science Interview questions
+
      3) Insurance Collision Report, Insurance Institute for Highway
         Safety, Watergate 600, Washington, DC 20037
 
-3. Past Usage:
+3. Past Usage:Practice SQL Interview and Data Science Interview questions
+
+
    -- Kibler,~D., Aha,~D.~W., \& Albert,~M. (1989).  Instance-based prediction
       of real-valued attributes.  {\it Computational Intelligence}, {\it 5},
       51--57.
@@ -81,7 +84,108 @@
  18. fuel-system:              1bbl, 2bbl, 4bbl, idi, mfi, mpfi, spdi, spfi.
  19. bore:                     continuous from 2.54 to 3.94.
  20. stroke:                   continuous from 2.07 to 4.17.
- 21. compression-ratio:        continuous from 7 to 23.
+ 21. PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> C:/Users/xiaoj/anaconda3/Scripts/s/activate
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> conda activate base
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git branch
+* master
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git checkout jianhang
+error: pathspec 'jianhang' did not match any file(s) known to git
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git checkout Jianhang
+error: pathspec 'Jianhang' did not match any file(s) known to git
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git checkout -b
+error: switch `b' requires a value
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git checkout -b Jianhang
+Switched to a new branch 'Jianhang'
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git status
+On branch Jianhang
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git store ^C
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git store code.ipynb
+git: 'store' is not a git command. See 'git --help'.
+
+The most similar command is
+        restore
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git store modified:   code.ipynb 
+git: 'store' is not a git command. See 'git --help'.
+
+The most similar command is
+        restore
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git branch
+* Jianhang
+  master
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> touch Readme.md
+touch : The term 'touch' is not recognized as the name of a cmdlet, function, script file, or operable program.      
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ touch Readme.md
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> cd touch Readme.md
+Set-Location : A positional parameter cannot be found that accepts argument 'Readme.md'.
+At line:1 char:1
++ cd touch Readme.md
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> touch readme.md
+touch : The term 'touch' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ touch readme.md
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> mkdir test
+
+
+    Directory: C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         12/3/2023  10:23 PM                test
+
+
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> ls
+
+
+    Directory: C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         12/3/2023  10:08 PM                automobile
+d-----         12/3/2023  10:08 PM                data
+d-----         12/3/2023  10:23 PM                test
+-a----         12/3/2023  10:11 PM          97899 code.ipynb
+
+
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> mkdir test
+
+
+    Directory: C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         12/3/2023  10:24 PM                test
+
+
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git add .
+warning: in the working copy of 'code.ipynb', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project> git commit -m "test"
+On branch Jianhang
+nothing to commit, working tree clean
+PS C:\Users\xiaoj\Desktop\TKH\Week_10\TLab-5\automobile-project\automobile-project>compression-ratio:        continuous from 7 to 23.
  22. horsepower:               continuous from 48 to 288.
  23. peak-rpm:                 continuous from 4150 to 6600.
  24. city-mpg:                 continuous from 13 to 49.
