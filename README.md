@@ -14,14 +14,15 @@ We utilized an automobile dataset from from the University of California Irvine 
 For more information, view here:
 (https://archive.ics.uci.edu/dataset/10/automobile)
 
-### Methods Used
+### Methods Used & Technologies
 Throughout the course of this project, a variety of methodologies were employed to achieve our objectives. Notably, a Linear Regression Model was employed to predict the pricing dynamics. This model proved instrumental in forecasting continuous pricing patterns and discerning key features within the spectrum of automobile models. While the application of Linear Regression facilitated intuitive visualization, a nuanced understanding of all features necessitated additional cognitive effort. Furthermore, the utilization of Pandas played a pivotal role in the graphical representation of our data. The integration of Pandas enhanced our ability to present comprehensive insights through visually compelling graphs, thereby augmenting the communicative efficacy of our findings.
-### Technologies
 
 ### Impact
 The linear regression indicates that prices are highly reflected in the components of cars. When consumers decide to purchase a car, depending on the features of the automobile, it will have a high impact on prices. Each feature either can increase or decrease the prices.
 
 ## Summary
+
+Some of the challenges we faced with the automobile dataframe was retrieving the corrrect library to download the dataframe, and deciding which type of graphs would be best to use in the Exploratory Data Analysis (EDA). Creating the linear progression model was the most challenging because of the mathematical parts that was needed to build the model.
 
 ### Credit
 Alex Nepomuceno (Severesix907)
