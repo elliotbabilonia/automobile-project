@@ -32,12 +32,12 @@ Throughout the course of this project, a variety of methodologies were employed 
 ### Impact
 The linear regression indicates that prices are highly reflected in the components of cars. When consumers decide to purchase a car, depending on the features of the automobile, it will have a high impact on prices. Each feature either can increase or decrease the prices.
 
-This heatmap shows the correlation matrix between all of the numerical values
-<br>
+**This heatmap shows the correlation matrix between all of the numerical values**
+<br><br>
 ![image 1](https://github.com/elliotbabilonia/automobile-project/assets/111297159/9c64b3c9-23c5-4217-a158-d62d7178c04b)
-<br>
-This bar plot shows the top 10 features and their corresponding coefficients
-<br>
+<br><br>
+**This bar plot shows the top 10 features and their corresponding coefficients**
+<br><br>
 ![image 2](https://github.com/elliotbabilonia/automobile-project/assets/111297159/042a1481-f9bd-4e20-9196-c960f54030a2)
 
 ## Summary
