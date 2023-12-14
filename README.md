@@ -32,6 +32,11 @@ Throughout the course of this project, a variety of methodologies were employed 
 ### Impact
 The linear regression indicates that prices are highly reflected in the components of cars. When consumers decide to purchase a car, depending on the features of the automobile, it will have a high impact on prices. Each feature either can increase or decrease the prices.
 
+This heatmap shows the correlation matrix between all of the numerical values
+![image](https://github.com/elliotbabilonia/automobile-project/assets/111297159/9c64b3c9-23c5-4217-a158-d62d7178c04b)
+This bar plot shows the top 10 features and their corresponding coefficients
+![image](https://github.com/elliotbabilonia/automobile-project/assets/111297159/042a1481-f9bd-4e20-9196-c960f54030a2)
+
 ## Summary
 
 Some of the challenges we faced with the automobile dataframe was retrieving the corrrect library to download the dataframe, and deciding which type of graphs would be best to use in the Exploratory Data Analysis (EDA). Creating the linear progression model was the most challenging because of the mathematical parts that was needed to build the model.
