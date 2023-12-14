@@ -34,6 +34,7 @@ The linear regression indicates that prices are highly reflected in the componen
 
 This heatmap shows the correlation matrix between all of the numerical values
 ![image](https://github.com/elliotbabilonia/automobile-project/assets/111297159/9c64b3c9-23c5-4217-a158-d62d7178c04b)
+
 This bar plot shows the top 10 features and their corresponding coefficients
 ![image](https://github.com/elliotbabilonia/automobile-project/assets/111297159/042a1481-f9bd-4e20-9196-c960f54030a2)
 
