@@ -8,7 +8,7 @@ these variables:
 
 By leveraging data exploration and visualization techniques, this project aims to provide valuable insights into the factors influencing the pricing dynamics of automobiles.
 
-## Intro
+## Introduction
 We utilized an automobile dataset from from the University of California Irvine Machine Learning (UCIML) Repository. The dataset was derived from the 1985 Ward's Automotive Yearbook. In order to access our data frame which was in a .data file, we imported a fetch command (fetch_ucirepo) from the UCIML repository and assigned the data frame to the automobile variable. After performing exploratory data analysis and preprocessing, we narrowed down our target variable of price. We were especially interested in how potential predictor variables such as make, body style, horsepower, and engine size could predict for price.
 
 For more information, view here:
